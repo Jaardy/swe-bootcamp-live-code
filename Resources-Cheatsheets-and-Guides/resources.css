@@ -1,6 +1,26 @@
-h1{
-    red;
+*{
+    background-color: lightblue;
+    font-family: Georgia, serif;
 }
 body{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+h1, h3{
+    color:darkblue;
+    
+}
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 4rem;
+    margin: 0px;
+}
+h4{
+    color: blue;
+}
+#headline{
+    border-bottom: 0.5rem solid navy;
+}
+li{
+    padding: 0.25em
 }
